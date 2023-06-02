@@ -45,7 +45,7 @@
     scroll-behavior: auto;
     --base-color: #A3A5A7;
     --heading-color: #1D2043;
-    --primary-color: #DF5646;
+    --primary-color: #7209B7;
     --light-color: #FAFAFA;
     --base-font: 'Poppins', sans-serif;
     --heading-font: 'Playfair Display', serif;
@@ -205,7 +205,7 @@ footer:after {
     padding: 6px 16px;
     margin-left: 50px;
     position: relative;
-    background: #FBF1E7;
+    background: #FFD500;
     display: inline-block;
     text-transform: capitalize;
     color: var(--primary-color);
@@ -218,7 +218,7 @@ footer:after {
     left: -50px;
     top: 50%;
     position: absolute;
-    background: #707070;
+    background: #F72585;
 }
 
 .text-typed {
@@ -1059,7 +1059,7 @@ b a:not(:hover) {
     border-radius: 50%;
     text-align: center;
     margin-right: 15px;
-    background: #78ADD9;
+    background: #F72585;
 }
 
 .service-item h4 {
@@ -1393,7 +1393,7 @@ b a:not(:hover) {
 }
 
 .testimonial-icon i {
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
 }
 
 /****************************************************** */
