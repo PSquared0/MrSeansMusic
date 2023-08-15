@@ -999,18 +999,44 @@ b a:not(:hover) {
 
 .about-inner-images .shape-one {
     position: absolute;
-    top: 15px;
-    left: 28%;
+    top: 0;
+    left: 38%;
     max-width: 15%;
 }
 
 .about-inner-images .shape-two {
     position: absolute;
-    top: 0;
-    right: 30%;
+    top: 60px;
+    right: 20%;
     max-width: 10%;
 }
 
+.about-inner-images .shape-three {
+    position: absolute;
+    top: 75px;
+    right: 70%;
+    max-width: 100%;
+}
+
+.about-inner-images .shape-four {
+    position: absolute;
+    top: 265px;
+    right: 15%;
+    max-width: 10%;
+}
+
+.about-inner-images .shape-five {
+    position: absolute;
+    top: 325px;
+    right: 70%;
+    max-width: 10%;
+}
+.about-inner-images .shape-six {
+    position: absolute;
+    top: 450px;
+    right: 25%;
+    max-width: 40%;
+}
 /****************************************************** */
 /***************** 05. Services Section *************** */
 /****************************************************** */
