@@ -627,7 +627,7 @@ a.theme-btn:hover i {
 
 .brand-name {
     color: var(--heading-color);
-  text-shadow: white 2px 5px
+
 }
 
 .brand-name:after {
@@ -1184,7 +1184,7 @@ b a:not(:hover) {
 }
 
 .edu-experi-item .years {
-    width: 90px;
+    width: 140px;
     flex: none;
     color: var(--heading-color);
 }
