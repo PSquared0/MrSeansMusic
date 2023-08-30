@@ -622,10 +622,12 @@ a.theme-btn:hover i {
     z-index: 500;
     left: 50px;
     top: 35px;
+
 }
 
 .brand-name {
     color: var(--heading-color);
+  text-shadow: white 2px 5px
 }
 
 .brand-name:after {
