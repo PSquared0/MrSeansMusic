@@ -110,8 +110,10 @@
                                 </div>
                                 <div class="lg:grow-0 lg:shrink-0 basisa-58 pxa-15">
                                     <div class="about-image pt-100 rpt-50 lg:text-right">
-                                        <div class="about-inner-images">
+                                        <div class="about-inner-images" class="parallax">
                                             <img class="animate-element delay7 fadeInUp" src="assets/images/about/about.png" alt="About">
+                                            <svg data-depth="0.3" data-name="Layer 1" class="layer p3" xmlns="http://www.w3.org/2000/svg" ><defs></defs><path d="M118.7,52.59h-2V79.73A9.15,9.15,0,1,0,119,92.47a9,9,0,0,0,1.62-4.58h0V56.76a7.85,7.85,0,0,1,5.88,7.59h3.92A11.78,11.78,0,0,0,118.7,52.59Z" fill="#44D7B6" /></svg>
+
                                             <img class="shape-one animate-element delay10 bounceIn" src="assets/images/about/shape-one.png" alt="Shape">
                                             <img class="shape-two animate-element delay11 bounceIn" src="assets/images/about/shape-two.png" alt="Shape">
                                         </div>
@@ -170,7 +172,7 @@
                                                 <div class="icon">
                                                     <img src="assets/images/services/service-icon5.png" alt="Icon">
                                                 </div>
-                                                <h4>Music Together Classes</h4>
+                                                <h4>Music Together® Classes</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -485,7 +487,8 @@ My passion for educating children started when my son was born in 2009. After a 
                                                <span class="sub-title mb-55 animate-element delay5 fadeInUp">contact me</span>
                                                 <h2 class="slide-title animate-element delay6 fadeInUp">Got a special request? Questions? Let me know here.</h2>
                                             </div>
-                                            <form action="#" class="contact-form animate-element delay8 fadeInUp" name="contact"  data-netlify-recaptcha="true" method="POST" data-netlify="true">
+
+                                            <form class="contact-form animate-element delay8 fadeInUp" name="contact"  data-netlify-recaptcha="true" method="POST" netlify>
                                                 <div class="form-group">
                                                     <input type="text" id="name" name="name" class="form-control" placeholder="What's your name?" required>
                                                 </div>
@@ -495,6 +498,7 @@ My passion for educating children started when my son was born in 2009. After a 
                                                 <div class="form-group">
                                                     <textarea name="message" id="message" rows="1" class="form-control" placeholder="How can I help you?" required></textarea>
                                                 </div>
+                                                  <div data-netlify-recaptcha="true"></div>
                                                 <button type="submit"><i class="fas fa-paper-plane"></i></button>
                                             </form>
                                         </div>
