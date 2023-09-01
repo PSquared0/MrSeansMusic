@@ -345,6 +345,67 @@ a.theme-btn:hover i {
     margin-bottom: 15px;
 }
 
+.layer {
+  position: absolute;
+}
+.p1 {
+  left: 10% !important;
+  top: 10% !important;
+  animation-delay: .2s;
+}
+.p2 {
+  left: 15% !important;
+  top: 35% !important;
+}
+.p3 {
+  left: 16% !important;
+  top: 45% !important;
+}
+.p4 {
+  left: 10% !important;
+  top: 80% !important;
+}
+.p5 {
+  left: 45% !important;
+  top: 10% !important;
+}
+.p6 {
+  left: 20% !important;
+  top: 85% !important;
+}
+.p7 {
+  top: 20% !important;
+  left: 30% !important;
+  animation-delay: .2s;
+}
+.p8 {
+  left: 70% !important;
+  top: 80% !important;
+}
+.p9 {
+  left: 90% !important;
+  top: 10% !important;
+}
+.p10 {
+  left: 80% !important;
+  top: 45% !important;
+}
+.p11 {
+  left: 90% !important;
+  top: 90% !important;
+}
+.p12 {
+  left: 10% !important;
+  top: 50% !important;
+}
+.p13 {
+  left: 0% !important;
+  top: 15% !important;
+}
+.p14 {
+  left: 65% !important;
+  top: 10% !important;
+}
 /*** Preloader style ** */
 .preloader {
     position: fixed;
