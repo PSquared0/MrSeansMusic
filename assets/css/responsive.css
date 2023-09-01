@@ -96,6 +96,13 @@
 
 }
 
+@media only screen and (max-width: 767px) {
+  .p1 {
+    max-width: 10% !important;
+
+  }
+
+}
 @media only screen and (max-width: 575px) {
     .serction-title h2 {
         font-size: 30px;

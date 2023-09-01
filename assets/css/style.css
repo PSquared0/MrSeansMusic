@@ -1246,7 +1246,7 @@ b a:not(:hover) {
 }
 
 .edu-experi-item .years {
-    width: 140px;
+    width: 160px;
     flex: none;
     color: var(--heading-color);
 }
