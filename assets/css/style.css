@@ -701,6 +701,7 @@ a.theme-btn:hover i {
     display: inline-block;
     margin: 0 0 -22px -5px;
     background: url(../images/brand-icon.png);
+    background-repeat: no-repeat;
 }
 
 .brand-name b {
