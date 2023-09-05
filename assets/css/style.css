@@ -347,7 +347,10 @@ a.theme-btn:hover i {
 
 .layer {
   position: absolute;
+  max-width: 50vw;
+  max-height: 50vh;
 }
+
 .p1 {
   left: 10% !important;
   top: 10% !important;
