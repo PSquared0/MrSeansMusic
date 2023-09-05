@@ -1325,7 +1325,7 @@ b a:not(:hover) {
 }
 
 .success-box {
-    display: flex;
+    /* display: flex; */
     margin-top: 50px;
     max-width: 200px;
 }
@@ -1349,6 +1349,7 @@ b a:not(:hover) {
 .success-box h6 {
     margin-bottom: 0;
     line-height: 23px;
+      margin-right: 10px;
 }
 
 .success-box:not(:last-child) {
