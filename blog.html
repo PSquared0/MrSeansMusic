@@ -10,15 +10,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!--====== Title ======-->
-    <title>It's Me - HTML Template || Blog</title>
+    <title>Mr Sean's Music || Home</title>
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <!--====== Google Fonts ======-->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     <!--====== FontAwesome ======-->
     <link href="assets/css/fontawesome.5.9.0.min.css" rel="stylesheet">
-    <!--====== Bootstrap ======-->
-    <link href="assets/css/bootstrap-4.5.3.min.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/9fe04bbd25.js"></script>
+    <link href="assets/css/brands.css" rel="stylesheet">
+    <link href="assets/css/fontawesome.css" rel="stylesheet">
+      <link href="assets/css/all.css" rel="stylesheet">
+    <!-- ======= Tailwind css ======== -->
+    <link href="assets/css/output.css" rel="stylesheet">
     <!--====== Spacing ======-->
     <link href="assets/css/spacing.min.css" rel="stylesheet">
     <!--====== PagePiling ======-->
@@ -31,23 +35,24 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!--====== Responsive css ======-->
     <link rel="stylesheet" href="assets/css/responsive.css">
-</head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css?v=7857324">
+  </head
 
 <body class="body-piling inner-page">
     <div class="wrapper">
-       
+
         <!-- Preloader -->
         <div class="preloader"></div>
-        
+
         <header id="header" class="header">
             <div class="container-fluid">
                 <div class="brand">
-                    <a href="index.html" class="brand-name"><b>it's</b> Me</a>
+                    <a href="#About" class="brand-name"><b>Mr Sean's</b> Music</a>
                 </div>
-                <div class="lets-chat">
+                <!-- <div class="lets-chat">
                     <span>Let's Chat</span>
-                    <button><i class="fab fa-rocketchat"></i></button>
-                </div>
+                    <button><i class="fab fa-rocketchat" style="color: #1D2043;"></i></button>
+                </div> -->
                 <button class="nav-toggle-btn a-nav-toggle">
                     <span class="hamburger">
                         <span class="top-bun"></span>
@@ -57,21 +62,22 @@
                 </button>
                 <div class="hide-menu a-nav-toggle"></div>
                 <div class="menu">
-                    <div class="menu-lang">
+                    <!-- <div class="menu-lang">
                         <a href="#" class="menu-lang-item active">Eng.</a>
                         <a href="#" class="menu-lang-item">Fra.</a>
                         <a href="#" class="menu-lang-item">Ara.</a>
-                    </div>
+                    </div> -->
                     <div class="menu-main mt-100" id="accordion">
                         <ul id="menuMain">
-                            <li data-menuanchor="About"><a href="index-light.html#About">About</a></li>
-                            <li data-menuanchor="Services"><a href="index-light.html#Services">Services</a></li>
-                            <li data-menuanchor="Skills"><a href="index-light.html#Skills">Skills</a></li>
-                            <li data-menuanchor="Resume"><a href="index-light.html#Resume">Resume</a></li>
-                            <li data-menuanchor="Portfolio"><a href="index-light.html#Portfolio">Portfolio</a></li>
-                            <li data-menuanchor="Testimonials"><a href="index-light.html#Testimonials">Testimonials</a></li>
-                            <li data-menuanchor="Weapons"><a href="index-light.html#Weapons">Weapons</a></li>
-                            <li data-menuanchor="Contact"><a href="index-light.html#Contact">Contact</a></li>
+                            <li data-menuanchor="About" class="active"><a href="#About">Introduction</a></li>
+                            <li data-menuanchor="Services"><a href="#Services">Services</a></li>
+                            <li data-menuanchor="Skills"><a href="#Skills">About Me</a></li>
+                            <li data-menuanchor="Resume"><a href="#Resume">Experience</a></li>
+                            <li data-menuanchor="Portfolio"><a href="#Portfolio">Gallery</a></li>
+                            <li data-menuanchor="Testimonials"><a href="#Testimonials">Testimonials</a></li>
+                            <li data-menuanchor="Weapons"><a href="#Weapons">Contact</a></li>
+                                <li data-menuanchor=" "><a href="blog.html">Events</a></li>
+                            <!-- <li data-menuanchor="Contact"><a href="#Contact">Contact</a></li> -->
                         </ul>
                     </div>
                     <div class="menu-ornament"></div>
@@ -86,11 +92,11 @@
                             <div class="banner-section bg-lighter pt-150 pb-85 rpb-75 mb-100">
                                 <div class="container">
                                     <div class="banner-inner">
-                                        <h2 class="page-title">Blog Standard</h2>
+                                        <h2 class="page-title">Events</h2>
                                         <nav aria-label="breadcrumb">
                                             <ol class="breadcrumb">
-                                                <li class="breadcrumb-item"><a href="index-light.html#About">Home</a></li>
-                                                <li class="breadcrumb-item active">Blog Standard</li>
+                                                <!-- <li class="breadcrumb-item"><a href="index-light.html#About">Home</a></li> -->
+                                                <!-- <li class="breadcrumb-item active">Upcoming Events</li> -->
                                             </ol>
                                         </nav>
                                     </div>
@@ -103,9 +109,9 @@
                                             <div class="blog-item">
                                                 <img src="assets/images/blog/blog2.jpg" alt="Blog">
                                                 <ul class="blog-meta">
-                                                    <li><i class="far fa-calendar-alt"></i> <a href="blog-details.html">25 March 2022</a></li>
+                                                    <!-- <li><i class="far fa-calendar-alt"></i> <a href="blog-details.html">25 March 2022</a></li>
                                                     <li><i class="far fa-comments"></i> <a href="#">Comments (10)</a></li>
-                                                    <li><i class="far fa-share-square"></i> <a href="#">Share (25)</a></li>
+                                                    <li><i class="far fa-share-square"></i> <a href="#">Share (25)</a></li> -->
                                                 </ul>
                                                 <h3><a href="blog-details.html">Everything Web Frameworks Solvowe Sithout Them Part Designing Better Links</a></h3>
                                                 <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
@@ -220,7 +226,7 @@
             </div>
         </div>
     </div>
-    
+
     <!--====== Jquery ======-->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <!--====== Bootstrap ======-->
