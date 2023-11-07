@@ -1138,7 +1138,7 @@ b a:not(:hover) {
 }
 
 .service-item {
-    width: 45%;
+    width: 75%;
     display: flex;
     margin-top: 40px;
     align-items: center;
